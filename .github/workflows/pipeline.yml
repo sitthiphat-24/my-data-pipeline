@@ -1,0 +1,26 @@
+name: IoT Data Pipeline
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # ตั้งเวลารันอัตโนมัติทุกวันตอนเที่ยงคืน
+  workflow_dispatch: # เปิดให้เรากดรันเองด้วยมือได้ตลอดเวลา
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Libraries
+        run: pip install pandas sqlalchemy psycopg2-binary
+
+      - name: Run Python Script
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        run: python push_data.py
