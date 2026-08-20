@@ -2,8 +2,8 @@ name: IoT Data Pipeline
 
 on:
   schedule:
-    - cron: '0 0 * * *' # ตั้งเวลารันอัตโนมัติทุกวันตอนเที่ยงคืน
-  workflow_dispatch: # เปิดให้เรากดรันเองด้วยมือได้ตลอดเวลา
+    - cron: '0 1 * * *' # รันตอน 01:00 UTC (ตรงกับ 08:00 น. เวลาไทย)
+  workflow_dispatch:
 
 jobs:
   update-database:
