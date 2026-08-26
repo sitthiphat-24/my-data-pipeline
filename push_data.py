@@ -22,7 +22,7 @@ print(f"วันที่รันระบบวันนี้คือ: {tod
 
 # 4. กรองเอาเฉพาะข้อมูลของ "วันนี้" เท่านั้น
 time_column = 'defect_date' # เปลี่ยนชื่อคอลัมน์ให้ตรงกับไฟล์ของคุณ
-table_name = 'piechart'  # เปลี่ยนชื่อตารางให้ตรงกับใน Supabase
+table_name = 'dssa-defect-report'  # เปลี่ยนชื่อตารางให้ตรงกับใน Supabase
 
 # แปลงคอลัมน์เวลาเป็นข้อความ และเลือกเฉพาะแถวที่ขึ้นต้นด้วยวันที่ของวันนี้
 df_clean[time_column] = df_clean[time_column].astype(str)
