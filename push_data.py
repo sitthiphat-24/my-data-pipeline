@@ -20,9 +20,43 @@ def process_and_upload(file_name, table_name, time_column):
     print(f"\n--- เริ่มประมวลผลไฟล์: {file_name} ---")
     try:
         # อ่านและคลีนไฟล์ CSV
+        
         df = pd.read_csv(file_name)
-        df_clean = df.dropna()
+        # ==========================================
+        # แยกวิธี Clean Data ตามชื่อตาราง
+        # ==========================================
+        if table_name == 'dssa-defect-report':
+            df_clean["defect_code"] = df_clean["defect_code"].astype(str).str.strip()
+            df_clean["defect_code"] = df_clean["defect_code"].replace(["none", "None", "NULL", "null", "", "nan"], "None")
+            df_clean["defect_code"] = df_clean["defect_code"].replace(r"^\s+$", "None", regex=True)
+            df_clean = df_clean[df_clean["tab"] != " "]
+            df_clean["tab"] = df_clean["tab"].astype(str).str.upper()
+            df_clean = df.dropna()
+            df_clean = df.drop_duplicates()
+            print("✅ คลีนข้อมูลตาราง {table_name}")
+            
+        elif table_name == 'crst-defect-report':
+            df_clean["sub_category"] = df_clean["sub_category"].astype(str).str.strip()
+            df_clean["sub_category"] = df_clean["sub_category"].replace(["none", "None", "NULL", "null", "", "nan"],"None")
+            df_clean["sub_category"] = df_clean["sub_category"].replace(r"^\s+$", "None", regex=True)
+            df_clean = df_clean[df_clean["tab"] != " "]
+            df_clean["tab"] = df_clean["tab"].astype(str).str.upper()
+            df_clean = df.dropna()
+            df_clean = df.drop_duplicates()
+            print("✅ คลีนข้อมูลตาราง {table_name}")
+            
+        else:
+            # ตารางอื่นๆ (เผื่อไว้ในอนาคต): ใช้ค่าเริ่มต้นคือคลีนทั้งหมด
+            df_clean = df.dropna()
+            print(f"✅ คลีนข้อมูลตาราง {table_name} ด้วยค่าเริ่มต้น")
+        # ==========================================
 
+        # 3. ขั้นตอนการกรองวันที่ (ใช้เหมือนกันทุกตาราง)
+        if time_column not in df_clean.columns:
+            print(f"❌ ไม่พบคอลัมน์เวลา '{time_column}' ข้ามการทำงานไฟล์นี้")
+            return
+
+        
         # กรองเอาเฉพาะข้อมูลของ "วันนี้"
         df_clean[time_column] = df_clean[time_column].astype(str)
         df_today = df_clean[df_clean[time_column].str.startswith(today_date)]
