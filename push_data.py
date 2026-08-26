@@ -54,7 +54,7 @@ process_and_upload(
 
 # ไฟล์ที่ 2: ตารางใหม่ที่คุณต้องการเพิ่ม (แก้ชื่อให้ตรงกับของคุณ)
 process_and_upload(
-    file_name='crst-defect-report',       
+    file_name='crst-defect-report.csv',       
     table_name='crst-defect-report',        
     time_column='date'         
 )
