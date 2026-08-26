@@ -1,37 +1,60 @@
-
 import pandas as pd
 from sqlalchemy import create_engine
 import os
 from datetime import datetime
-import pytz # ใช้สำหรับตั้งโซนเวลาให้แม่นยำ
+import pytz 
 
-# 1. เชื่อมต่อฐานข้อมูล
+# 1. เชื่อมต่อฐานข้อมูล (ทำครั้งเดียวใช้งานได้ตลอด)
 db_url = os.environ.get('SUPABASE_URL')
 engine = create_engine(db_url)
 
-# 2. อ่านไฟล์ CSV
-print("กำลังอ่านไฟล์ CSV...")
-df = pd.read_csv('defect_data_21_30.csv')
-df_clean = df.dropna()
-
-# 3. หาวันที่ของ "วันนี้" (ตั้งโซนเวลาเป็นเอเชีย/กรุงเทพฯ-สิงคโปร์)
-# เวลาในเซิร์ฟเวอร์ GitHub เป็น UTC เราต้องปรับให้ตรงกับเวลาบ้านเรา
+# 2. หาวันที่ของ "วันนี้" (ทำครั้งเดียว)
 tz = pytz.timezone('Asia/Bangkok')
 today_date = datetime.now(tz).strftime('%Y-%m-%d')
 print(f"วันที่รันระบบวันนี้คือ: {today_date}")
 
-# 4. กรองเอาเฉพาะข้อมูลของ "วันนี้" เท่านั้น
-time_column = 'defect_date' # เปลี่ยนชื่อคอลัมน์ให้ตรงกับไฟล์ของคุณ
-table_name = 'dssa-defect-report'  # เปลี่ยนชื่อตารางให้ตรงกับใน Supabase
+# ---------------------------------------------------------
+# สร้างฟังก์ชันสำหรับจัดการไฟล์ CSV คลีนข้อมูล และส่งเข้า Supabase
+# ---------------------------------------------------------
+def process_and_upload(file_name, table_name, time_column):
+    print(f"\n--- เริ่มประมวลผลไฟล์: {file_name} ---")
+    try:
+        # อ่านและคลีนไฟล์ CSV
+        df = pd.read_csv(file_name)
+        df_clean = df.dropna()
 
-# แปลงคอลัมน์เวลาเป็นข้อความ และเลือกเฉพาะแถวที่ขึ้นต้นด้วยวันที่ของวันนี้
-df_clean[time_column] = df_clean[time_column].astype(str)
-df_today = df_clean[df_clean[time_column].str.startswith(today_date)]
+        # กรองเอาเฉพาะข้อมูลของ "วันนี้"
+        df_clean[time_column] = df_clean[time_column].astype(str)
+        df_today = df_clean[df_clean[time_column].str.startswith(today_date)]
 
-# 5. ส่งข้อมูลเข้า Supabase
-if len(df_today) > 0:
-    print(f"พบข้อมูลของวันที่ {today_date} จำนวน {len(df_today)} แถว! กำลังส่งเข้า Supabase...")
-    df_today.to_sql(table_name, engine, if_exists='append', index=False, chunksize=10000)
-    print("🚀 ส่งข้อมูลของวันนี้สำเร็จเรียบร้อย!")
-else:
-    print(f"✨ วันนี้ ({today_date}) ไม่มีข้อมูลเซ็นเซอร์ในไฟล์ CSV เลยไม่ได้ส่งอะไรไปครับ")
+        # ส่งข้อมูลเข้า Supabase
+        if len(df_today) > 0:
+            print(f"พบข้อมูลจำนวน {len(df_today)} แถว! กำลังส่งเข้าตาราง '{table_name}'...")
+            df_today.to_sql(table_name, engine, if_exists='append', index=False, chunksize=10000)
+            print(f"🚀 ส่งข้อมูลเข้าตาราง {table_name} สำเร็จเรียบร้อย!")
+        else:
+            print(f"✨ วันนี้ไม่มีข้อมูลใหม่ในไฟล์ {file_name} เลยไม่ได้ส่งอะไรไปครับ")
+            
+    except FileNotFoundError:
+        print(f"❌ หาไฟล์ {file_name} ไม่พบ กรุณาตรวจสอบชื่อไฟล์อีกครั้ง")
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดกับไฟล์ {file_name}: {e}")
+
+
+# ---------------------------------------------------------
+# 3. สั่งรันการทำงาน (เรียกใช้ฟังก์ชัน)
+# ---------------------------------------------------------
+
+# ไฟล์ที่ 1: ตาราง Defect (งานเดิมของคุณ)
+process_and_upload(
+    file_name='defect_data_21_30.csv', 
+    table_name='dssa-defect-report', 
+    time_column='defect_date'
+)
+
+# ไฟล์ที่ 2: ตารางใหม่ที่คุณต้องการเพิ่ม (แก้ชื่อให้ตรงกับของคุณ)
+process_and_upload(
+    file_name='crst-defect-report',       
+    table_name='crst-defect-report',        
+    time_column='date'         
+)
