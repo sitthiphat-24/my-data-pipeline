@@ -76,7 +76,7 @@ def process_and_upload(file_name, table_name, time_column):
 # 3. สั่งรันการทำงาน (เรียกใช้ฟังก์ชัน)
 # ---------------------------------------------------------
 process_and_upload(
-    file_name='defect_data_21_30.csv', 
+    file_name='dssa-defect-report.csv', 
     table_name='dssa-defect-report', 
     time_column='defect_date'
 )
