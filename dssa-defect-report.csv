@@ -1,0 +1,931 @@
+defect_date,plant,line,machine,tab,lot,main_category,defect_category,defect_code,defect_count,total_part
+2026-08-31,plant-A,line8,machine5,UP,lot3,category 3,a3,code8,21,21
+2026-08-31,plant-B,line3,machine6,UP,lot2,category 2,b2,code2,21,21
+2026-08-31,plant-B,line6,machine9,UP,lot3,category 3,a4,code9,3,3
+2026-08-31,plant-A,line5,machine9,UP,lot2,category 1,a4,code2,9,9
+2026-08-31,plant-B,line4,machine7,DN,lot8,pass,pass,,0,234
+2026-08-31,plant-B,line2,machine8,DN,lot2,category 2,b2,code6,10,10
+2026-08-31,plant-A,line2,machine2,DN,lot4,category 2,b3,code8,14,14
+2026-08-31,plant-A,line8,machine5,DN,lot2,pass,pass,,0,252
+2026-08-31,plant-A,line9,machine1,UP,lot7,category 1,b4,code1,12,12
+2026-08-31,plant-A,line3,machine1,DN,lot3,category 3,a1,code5,10,10
+2026-08-31,plant-A,line7,machine9,DN,lot2,category 1,b4,code7,23,23
+2026-08-31,plant-A,line3,machine8,DN,lot3,category 1,a3,code5,15,15
+2026-08-31,plant-A,line5,machine7,UP,lot7,category 3,a1,code10,10,10
+2026-08-31,plant-A,line7,machine1,DN,lot4,category 2,b1,code7,7,7
+2026-08-31,plant-A,line4,machine7,UP,lot3,category 2,a4,code2,10,10
+2026-08-31,plant-A,line5,machine6,DN,lot4,category 2,b2,code10,23,23
+2026-08-31,plant-A,line1,machine1,UP,lot9,category 1,a1,code3,7,7
+2026-08-31,plant-A,line9,machine5,UP,lot3,pass,pass,,0,433
+2026-08-31,plant-A,line6,machine8,UP,lot4,category 1,b2,code1,20,20
+2026-08-31,plant-A,line2,machine3,UP,lot5,category 1,b4,code1,17,17
+2026-08-31,plant-B,line6,machine7,UP,lot1,category 1,a3,code2,21,21
+2026-08-31,plant-B,line6,machine7,DN,lot7,category 3,b4,code1,6,6
+2026-08-31,plant-B,line2,machine6,DN,lot1,category 1,a4,code6,16,16
+2026-08-31,plant-B,line4,machine3,DN,lot3,pass,pass,,0,710
+2026-08-31,plant-B,line7,machine4,UP,lot1,category 3,a2,code8,1,1
+2026-08-31,plant-A,line9,machine2,UP,lot3,category 3,a4,code10,16,16
+2026-08-31,plant-B,line1,machine2,UP,lot5,category 1,b4,code7,9,9
+2026-08-31,plant-A,line3,machine4,DN,lot6,category 1,b4,code4,11,11
+2026-08-31,plant-B,line6,machine8,DN,lot3,category 2,a1,code3,18,18
+2026-08-31,plant-B,line2,machine6,UP,lot9,pass,pass,,0,360
+2026-09-01,plant-B,line5,machine4,DN,lot8,pass,pass,,0,334
+2026-09-01,plant-B,line1,machine3,DN,lot7,category 2,b2,code6,6,6
+2026-09-01,plant-B,line8,machine2,UP,lot1,category 3,b4,code1,5,5
+2026-09-01,plant-B,line3,machine4,UP,lot1,,a4,code5,6,6
+2026-09-01,plant-A,line5,machine8,UP,lot1,category 2,b1,code3,1,1
+2026-09-01,plant-A,line5,machine7,UP,lot3,,pass,,0,327
+2026-09-01,plant-B,line6,machine3,DN,lot8,category 2,b4,code6,23,23
+2026-09-01,plant-A,line2,machine1,DN,lot1,pass,pass,,0,592
+2026-09-01,plant-B,line7,machine7,DN,lot3,category 2,a1,code8,13,13
+2026-09-01,,line9,machine4,UP,lot4,pass,pass,,0,520
+2026-09-01,plant-B,line3,machine7,UP,lot2,pass,pass,,0,926
+2026-09-01,plant-A,line9,machine6,DN,lot6,category 1,a4,code10,6,6
+2026-09-01,plant-A,line5,machine1,DN,lot5,category 1,b3,code4,6,6
+2026-09-01,plant-B,line3,machine7,DN,lot4,pass,pass,,0,855
+2026-09-01,plant-B,line3,machine1,DN,lot3,category 2,b3,code10,5,5
+2026-09-01,plant-B,line7,machine9,DN,lot5,pass,pass,,0,840
+2026-09-01,plant-A,line2,machine6,DN,lot9,pass,pass,,0,687
+2026-09-01,plant-A,line7,machine5,DN,lot7,category 3,a4,code10,16,16
+2026-09-01,plant-B,line9,machine5,UP,lot1,pass,pass,,0,293
+2026-09-01,,line5,machine5,UP,lot4,category 1,b2,code5,23,23
+2026-09-01,plant-B,line5,machine4,DN,lot4,pass,pass,,0,422
+2026-09-01,plant-A,line1,machine8,UP,lot4,pass,pass,,0,215
+2026-09-01,plant-A,line2,machine1,DN,lot4,pass,pass,,0,863
+2026-09-01,plant-A,line1,machine1,UP,lot3,category 3,b1,code3,1,1
+2026-09-01,plant-B,line2,machine3,DN,lot3,category 3,a1,code10,8,8
+2026-09-01,plant-B,line2,machine3,UP,lot7,category 2,b1,code2,13,13
+2026-09-01,plant-B,line4,machine9,UP,lot9,category 2,b1,code9,24,24
+2026-09-01,plant-A,line3,machine4,DN,lot1,category 3,b4,code8,23,23
+2026-09-01,plant-A,line1,machine7,UP,lot7,category 1,a3,code9,17,17
+2026-09-01,plant-B,line9,machine6,UP,lot3,category 1,a4,code9,19,19
+2026-09-02,plant-A,line4,machine3,DN,lot5,pass,pass,,0,268
+2026-09-02,plant-A,line4,machine5,DN,lot5,category 3,b4,code9,7,7
+2026-09-02,plant-B,line7,machine5,UP,lot7,pass,pass,,0,932
+2026-09-02,plant-B,line9,machine1,UP,lot6,category 3,b2,code8,10,10
+2026-09-02,plant-A,line2,machine5,UP,lot5,category 2,a3,code8,16,16
+2026-09-02,plant-B,line4,machine1,UP,lot7,category 1,b1,code4,4,4
+2026-09-02,,line3,machine6,UP,lot3,category 3,b2,code3,13,13
+2026-09-02,plant-B,line4,machine8,UP,lot9,pass,pass,,0,200
+2026-09-02,plant-B,line9,machine1,UP,lot8,category 1,b2,code5,6,6
+2026-09-02,plant-A,line5,machine6,UP,lot5,category 3,a3,code4,18,18
+2026-09-02,plant-A,line1,machine5,DN,lot6,pass,pass,,0,458
+2026-09-02,plant-A,line8,machine6,DN,lot8,category 1,b4,code10,4,4
+2026-09-02,plant-B,line2,machine5,UP,lot4,category 3,b2,code1,9,9
+2026-09-02,plant-B,line3,machine6,DN,lot3,category 1,b3,code9,2,2
+2026-09-02,plant-B,line2,machine5,UP,lot8,pass,pass,,0,573
+2026-09-02,plant-B,line1,machine5,DN,lot9,category 2,a3,code1,13,13
+2026-09-02,plant-A,line3,machine1,UP,lot7,pass,pass,,0,717
+2026-09-02,plant-A,line5,machine6,UP,lot5,category 3,b1,code5,5,5
+2026-09-02,plant-A,line1,machine5,DN,lot9,category 2,a1,code3,13,13
+2026-09-02,plant-B,line1,machine1,DN,lot2,category 3,b4,code7,2,2
+2026-09-02,plant-A,line2,machine1,DN,lot5,category 2,b2,code9,17,17
+2026-09-02,plant-A,line7,machine5,UP,lot2,pass,pass,,0,274
+2026-09-02,plant-B,line2,machine6,DN,lot2,category 2,b2,code3,2,2
+2026-09-02,plant-B,line1,machine8,UP,lot7,category 2,a3,code1,5,5
+2026-09-02,plant-B,line8,machine1,DN,lot1,category 1,a2,code6,21,21
+2026-09-02,plant-B,line3,machine9,UP,lot7,category 3,a3,code6,16,16
+2026-09-02,plant-B,line4,machine8,UP,lot3,category 3,a3,code2,19,19
+2026-09-02,plant-A,line2,machine6,UP,lot6,pass,pass,,0,712
+2026-09-02,plant-B,line2,machine1,DN,lot9,category 2,a1,code9,22,22
+2026-09-02,plant-B,line1,machine4,UP,lot8,pass,pass,,0,824
+2026-09-03,plant-B,line8,machine6,DN,lot7,category 2,b4,code2,13,13
+2026-09-03,plant-A,line8,machine3,UP,lot3,pass,pass,,0,822
+2026-09-03,plant-A,line2,machine6,UP,lot3,category 3,b4,code9,23,23
+2026-09-03,plant-B,line7,machine9,UP,lot7,category 2,a2,code9,17,17
+2026-09-03,plant-A,line4,machine3,UP,lot2,category 3,a4,code6,2,2
+2026-09-03,plant-B,line1,machine3,DN,lot9,category 1,b2,code4,2,2
+2026-09-03,plant-A,line6,machine5,UP,lot1,category 1,b2,code5,6,6
+2026-09-03,plant-B,line4,machine8,UP,lot9,category 3,a3,code3,8,8
+2026-09-03,plant-B,line6,machine2,DN,lot4,category 3,b2,code6,17,17
+2026-09-03,,line3,machine9,DN,lot8,category 2,a3,code5,6,6
+2026-09-03,plant-B,line3,machine4,UP,lot4,category 1,a4,code1,14,14
+2026-09-03,plant-A,line4,machine3,UP,lot6,,b4,code10,5,5
+2026-09-03,plant-B,line2,machine8,DN,lot4,pass,pass,,0,520
+2026-09-03,plant-A,line1,machine9,UP,lot8,pass,pass,,0,749
+2026-09-03,plant-B,line1,machine5,DN,lot2,category 2,b1,code8,11,11
+2026-09-03,plant-B,line3,machine3,UP,lot8,category 2,a4,code8,11,11
+2026-09-03,plant-B,line3,machine5,UP,lot5,category 3,a3,code10,4,4
+2026-09-03,plant-B,line9,machine2,DN,lot8,category 3,b4,code3,6,6
+2026-09-03,plant-A,line1,machine9,UP,lot1,category 3,b3,code2,14,14
+2026-09-03,plant-B,line3,machine7,UP,lot6,pass,pass,,0,845
+2026-09-03,plant-A,line8,machine4,UP,lot1,category 2,b3,code4,6,6
+2026-09-03,plant-A,line5,machine7,UP,lot4,category 2,a2,code10,5,5
+2026-09-03,plant-A,line6,machine6,UP,lot4,category 1,b4,code4,24,24
+2026-09-03,plant-B,line5,machine4,DN,lot2,category 3,b3,code3,19,19
+2026-09-03,plant-B,line5,machine4,UP,lot8,category 2,b2,code8,23,23
+2026-09-03,plant-B,line8,machine2,UP,lot1,category 3,b4,code4,16,16
+2026-09-03,plant-B,line5,machine8,UP,lot1,category 3,a2,code9,22,22
+2026-09-03,plant-B,line8,machine9,DN,lot7,pass,pass,,0,812
+2026-09-03,plant-B,line4,machine6,UP,lot9,category 1,b3,code6,23,23
+2026-09-03,plant-A,line5,machine9,UP,lot9,category 2,a4,code9,21,21
+2026-09-04,plant-A,line4,machine9,DN,lot6,category 2,b3,code2,2,2
+2026-09-04,plant-B,line3,machine6,DN,lot9,category 3,a4,code6,21,21
+2026-09-04,plant-A,line6,machine2,UP,lot1,category 3,a1,code4,9,9
+2026-09-04,plant-B,line6,machine8,UP,lot7,pass,pass,,0,935
+2026-09-04,plant-A,line3,machine8,UP,lot1,pass,pass,,0,628
+2026-09-04,plant-B,line8,machine3,DN,lot1,category 2,a3,code2,2,2
+2026-09-04,plant-A,line2,machine6,UP,lot4,category 1,b4,code7,7,7
+2026-09-04,plant-B,line3,machine2,DN,lot1,category 3,b3,code2,7,7
+2026-09-04,plant-A,line9,machine7,UP,lot8,category 3,a3,code8,22,22
+2026-09-04,plant-A,line3,machine3,UP,lot8,category 2,a3,code8,14,14
+2026-09-04,plant-B,line4,machine4,UP,lot6,category 1,b2,code7,16,16
+2026-09-04,plant-B,line7,machine1,UP,lot5,pass,pass,,0,346
+2026-09-04,plant-A,line4,machine2,DN,lot1,pass,pass,,0,908
+2026-09-04,plant-B,line2,machine3,UP,lot7,category 1,b1,code6,9,9
+2026-09-04,plant-B,line3,machine4,DN,lot6,category 1,a2,code8,14,14
+2026-09-04,plant-B,line1,machine2,UP,lot1,category 2,a1,code8,2,2
+2026-09-04,plant-A,line9,machine6,DN,lot4,category 2,a2,code2,23,23
+2026-09-04,plant-B,line2,machine5,DN,lot4,category 1,b2,code2,17,17
+2026-09-04,plant-B,line7,machine5,DN,lot6,category 1,a3,code9,6,6
+2026-09-04,plant-B,line9,machine5,UP,lot1,category 2,b1,code10,14,14
+2026-09-04,plant-B,line6,machine1,UP,lot5,pass,pass,,0,491
+2026-09-04,plant-A,line5,machine8,UP,lot4,category 1,a3,code7,8,8
+2026-09-04,plant-B,line7,machine8,DN,lot6,category 1,b4,code1,4,4
+2026-09-04,plant-A,line3,machine4,UP,lot1,category 2,a3,code2,9,9
+2026-09-04,plant-A,line9,machine9,DN,lot1,category 1,a1,code8,10,10
+2026-09-04,plant-A,line3,machine2,UP,lot3,category 2,b2,code2,12,12
+2026-09-04,plant-B,line1,machine1,DN,lot9,category 3,a1,code8,19,19
+2026-09-04,plant-A,line1,machine7,UP,lot6,category 2,b4,code9,18,18
+2026-09-04,plant-A,line9,machine7,UP,lot7,category 2,b1,code6,7,7
+2026-09-04,plant-A,line7,machine9,UP,lot8,pass,pass,,0,697
+2026-09-05,plant-A,line2,machine4,UP,lot3,category 2,a3,code10,7,7
+2026-09-05,plant-A,line8,machine3,DN,lot2,pass,pass,,0,330
+2026-09-05,plant-B,line7,machine7,DN,lot7,category 3,b4,code1,4,4
+2026-09-05,plant-A,line2,machine1,DN,lot2,category 3,a3,code10,2,2
+2026-09-05,plant-A,line2,machine3,UP,lot7,pass,pass,,0,228
+2026-09-05,plant-A,line5,machine9,DN,lot8,category 3,a1,code10,7,7
+2026-09-05,plant-A,line1,machine3,UP,lot8,category 2,a2,code4,18,18
+2026-09-05,plant-A,line1,machine5,DN,lot9,category 3,a1,code9,24,24
+2026-09-05,plant-A,line5,machine5,UP,lot6,pass,pass,,0,639
+2026-09-05,plant-B,line2,machine9,UP,lot4,category 3,b4,code4,22,22
+2026-09-05,plant-A,line2,machine9,DN,lot9,category 1,a2,code3,24,24
+2026-09-05,plant-A,line6,machine7,UP,lot9,category 3,a4,code10,17,17
+2026-09-05,plant-B,line3,machine2,DN,lot1,pass,pass,,0,415
+2026-09-05,plant-A,line6,machine8,UP,lot9,category 1,a4,code5,2,2
+2026-09-05,plant-B,line3,machine9,UP,lot9,category 2,a4,code10,9,9
+2026-09-05,plant-A,line5,machine2,DN,lot6,category 3,b1,code10,18,18
+2026-09-05,plant-B,line5,machine1,DN,lot8,pass,pass,,0,500
+2026-09-05,plant-A,line3,machine3,DN,lot8,category 2,b4,code1,6,6
+2026-09-05,plant-B,line8,machine1,UP,lot9,category 1,a3,code9,21,21
+2026-09-05,plant-A,line6,machine7,UP,lot9,category 3,b3,code7,10,10
+2026-09-05,plant-A,line5,machine7,UP,lot2,pass,pass,,0,555
+2026-09-05,plant-A,line7,machine2,DN,lot1,category 1,a1,code8,2,2
+2026-09-05,plant-B,line3,machine6,UP,lot7,category 2,a1,code2,15,15
+2026-09-05,plant-A,line6,machine4,DN,lot4,category 2,a4,code1,12,12
+2026-09-05,plant-B,line6,machine1,DN,lot8,pass,pass,,0,409
+2026-09-05,plant-B,line4,machine3,DN,lot7,category 1,a3,code1,6,6
+2026-09-05,plant-B,line3,machine7,DN,lot2,category 2,a2,code4,17,17
+2026-09-05,plant-A,line7,machine7,UP,lot4,pass,pass,,0,329
+2026-09-05,plant-B,line6,machine3,UP,lot8,category 1,b1,code5,20,20
+2026-09-05,plant-A,line5,machine3,UP,lot1,category 2,a4,code6,15,15
+2026-09-06,plant-A,line1,machine9,DN,lot2,category 3,a4,code8,14,14
+2026-09-06,plant-A,line5,machine8,UP,lot2,category 3,a3,code5,24,24
+2026-09-06,plant-A,line4,machine9,DN,lot7,category 1,b2,code4,4,4
+2026-09-06,plant-B,line9,machine6,DN,lot5,category 1,a2,code8,8,8
+2026-09-06,plant-A,line1,machine8,UP,lot2,category 2,b4,code2,14,14
+2026-09-06,plant-B,line9,machine1,DN,lot6,,b4,code6,19,19
+2026-09-06,plant-A,line9,machine6,DN,lot4,pass,pass,,0,872
+2026-09-06,plant-B,line2,machine1,DN,lot1,category 1,a1,code1,13,13
+2026-09-06,plant-B,line7,machine2,DN,lot7,pass,pass,,0,289
+2026-09-06,plant-B,line2,machine7,DN,lot1,category 3,b1,code3,6,6
+2026-09-06,plant-A,line7,machine9,DN,lot8,category 2,a4,code4,15,15
+2026-09-06,plant-A,line4,machine4,DN,lot6,,b3,code3,9,9
+2026-09-06,plant-B,line2,machine6,DN,lot7,pass,pass,,0,723
+2026-09-06,plant-A,line3,machine3,UP,lot4,pass,pass,,0,884
+2026-09-06,plant-A,line5,machine7,DN,lot3,pass,pass,,0,793
+2026-09-06,plant-A,line6,machine5,DN,lot8,pass,pass,,0,258
+2026-09-06,plant-B,line3,machine3,UP,lot6,category 3,b3,code1,7,7
+2026-09-06,plant-B,line5,machine8,DN,lot5,category 2,a4,code8,18,18
+2026-09-06,plant-B,line9,machine4,DN,lot5,category 2,b4,code4,2,2
+2026-09-06,plant-B,line6,machine7,DN,lot3,category 3,a2,code6,12,12
+2026-09-06,plant-B,line8,machine5,UP,lot1,category 3,a2,code8,4,4
+2026-09-06,plant-A,line2,machine7,UP,lot5,category 2,b1,code9,22,22
+2026-09-06,plant-A,line8,machine7,UP,lot4,category 2,b3,code6,17,17
+2026-09-06,plant-A,line2,machine3,UP,lot5,category 3,a1,code8,12,12
+2026-09-06,plant-A,line7,machine3,DN,lot9,pass,pass,,0,456
+2026-09-06,plant-B,line1,machine9,DN,lot6,category 1,a3,code5,15,15
+2026-09-06,plant-A,line1,machine1,DN,lot8,category 3,b3,code6,12,12
+2026-09-06,plant-B,line2,machine2,UP,lot5,category 2,b1,code1,23,23
+2026-09-06,plant-A,line5,machine5,UP,lot1,category 3,b2,code10,20,20
+2026-09-06,plant-B,line2,machine9,DN,lot9,category 3,b3,code8,15,15
+2026-09-07,plant-A,line6,machine4,UP,lot4,category 2,a2,code7,8,8
+2026-09-07,plant-A,line7,machine8,UP,lot6,category 1,b3,code6,15,15
+2026-09-07,plant-A,line7,machine2,DN,lot1,category 2,b4,code8,17,17
+2026-09-07,plant-B,line9,machine4,UP,lot1,pass,pass,,0,346
+2026-09-07,plant-B,line5,machine5,UP,lot2,category 2,b4,code6,9,9
+2026-09-07,plant-A,line9,machine5,UP,lot9,category 3,a4,code2,6,6
+2026-09-07,plant-B,line3,machine6,DN,lot2,category 1,a1,code7,19,19
+2026-09-07,plant-A,line8,machine6,UP,lot9,category 1,b3,code1,12,12
+2026-09-07,plant-A,line5,machine3,DN,lot9,category 1,a1,code1,3,3
+2026-09-07,plant-B,line3,machine8,DN,lot2,category 2,a1,code3,21,21
+2026-09-07,plant-B,line2,machine6,DN,lot5,category 1,a2,code9,12,12
+2026-09-07,,line5,machine4,UP,lot7,pass,pass,,0,525
+2026-09-07,plant-B,line5,machine7,UP,lot7,category 3,b1,code9,4,4
+2026-09-07,plant-A,line4,machine5,UP,lot6,category 3,a2,code4,16,16
+2026-09-07,plant-B,line3,machine8,DN,lot4,category 2,a2,code2,17,17
+2026-09-07,plant-B,line9,machine7,UP,lot7,category 1,b3,code7,24,24
+2026-09-07,plant-A,line8,machine4,DN,lot4,category 2,b3,code6,1,1
+2026-09-07,plant-A,line7,machine6,DN,lot5,category 2,a4,code9,9,9
+2026-09-07,plant-B,line9,machine8,DN,lot1,category 2,a3,code5,4,4
+2026-09-07,plant-A,line4,machine7,DN,lot9,category 2,a3,code4,10,10
+2026-09-07,plant-B,line5,machine1,UP,lot2,category 1,b3,code5,17,17
+2026-09-07,plant-A,line3,machine7,DN,lot9,pass,pass,,0,789
+2026-09-07,plant-A,line9,machine2,DN,lot3,category 3,b1,code2,3,3
+2026-09-07,plant-A,line7,machine9,UP,lot7,category 2,a3,code4,6,6
+2026-09-07,plant-A,line4,machine8,UP,lot1,category 3,a1,code8,1,1
+2026-09-07,plant-A,line7,machine4,UP,lot1,category 2,a4,code5,12,12
+2026-09-07,plant-A,line8,machine6,DN,lot2,category 3,b2,code10,3,3
+2026-09-07,plant-B,line7,machine2,DN,lot1,pass,pass,,0,553
+2026-09-07,plant-B,line8,machine6,DN,lot4,category 1,b1,code9,23,23
+2026-09-07,plant-B,line9,machine7,DN,lot1,category 3,b4,code7,19,19
+2026-09-08,plant-A,line4,machine8,DN,lot1,pass,pass,,0,832
+2026-09-08,plant-B,line6,machine6,DN,lot8,category 3,b4,code1,21,21
+2026-09-08,plant-B,line4,machine2,UP,lot4,category 1,b3,code2,13,13
+2026-09-08,plant-A,line2,machine9,UP,lot1,category 3,a3,code4,23,23
+2026-09-08,plant-B,line7,machine6,UP,lot6,category 3,b3,code6,5,5
+2026-09-08,plant-B,line1,machine6,DN,lot3,category 2,b4,code10,14,14
+2026-09-08,plant-B,line7,machine4,DN,lot9,category 3,b1,code3,2,2
+2026-09-08,plant-A,line2,machine4,DN,lot9,pass,pass,,0,452
+2026-09-08,plant-B,line1,machine6,DN,lot4,category 3,a3,code9,6,6
+2026-09-08,plant-A,line2,machine8,UP,lot2,pass,pass,,0,736
+2026-09-08,plant-A,line4,machine2,UP,lot6,category 1,a3,code2,23,23
+2026-09-08,plant-A,line5,machine3,DN,lot9,pass,pass,,0,841
+2026-09-08,plant-B,line8,machine9,UP,lot3,category 1,a3,code5,9,9
+2026-09-08,plant-B,line3,machine7,DN,lot1,category 3,b4,code1,5,5
+2026-09-08,plant-B,line4,machine4,DN,lot6,category 3,a2,code5,20,20
+2026-09-08,plant-B,line3,machine7,UP,lot6,category 2,b3,code5,22,22
+2026-09-08,plant-A,line2,machine5,DN,lot6,category 3,b1,code10,23,23
+2026-09-08,plant-A,line5,machine1,UP,lot5,pass,pass,,0,441
+2026-09-08,plant-A,line2,machine5,UP,lot4,category 1,a3,code1,11,11
+2026-09-08,plant-B,line7,machine5,DN,lot4,category 2,a4,code2,8,8
+2026-09-08,plant-A,line4,machine6,DN,lot5,category 2,b1,code1,9,9
+2026-09-08,plant-B,line9,machine9,UP,lot2,pass,pass,,0,771
+2026-09-08,plant-A,line2,machine8,UP,lot7,pass,pass,,0,925
+2026-09-08,plant-A,line1,machine7,DN,lot3,category 1,b4,code1,23,23
+2026-09-08,plant-A,line8,machine9,UP,lot1,category 1,a3,code8,3,3
+2026-09-08,plant-A,line4,machine5,DN,lot4,pass,pass,,0,850
+2026-09-08,plant-A,line7,machine3,DN,lot3,category 3,a2,code5,5,5
+2026-09-08,plant-B,line8,machine6,UP,lot1,category 3,b4,code8,9,9
+2026-09-08,plant-B,line3,machine1,DN,lot4,category 2,a1,code9,23,23
+2026-09-08,plant-B,line5,machine4,DN,lot8,pass,pass,,0,573
+2026-09-09,plant-B,line2,machine1,DN,lot2,category 3,a1,code9,8,8
+2026-09-09,plant-B,line9,machine2,DN,lot4,category 2,a4,code5,12,12
+2026-09-09,plant-B,line1,machine8,UP,lot3,pass,pass,,0,321
+2026-09-09,plant-A,line7,machine1,DN,lot9,category 3,a2,code5,13,13
+2026-09-09,plant-B,line8,machine8,DN,lot7,category 3,a4,code6,22,22
+2026-09-09,plant-B,line2,machine2,UP,lot5,category 3,a4,code2,15,15
+2026-09-09,plant-B,line6,machine5,UP,lot1,category 3,b3,code6,19,19
+2026-09-09,plant-B,line7,machine9,DN,lot5,pass,pass,,0,310
+2026-09-09,plant-B,line8,machine1,DN,lot5,pass,pass,,0,714
+2026-09-09,plant-B,line3,machine2,UP,lot9,category 2,b1,code7,2,2
+2026-09-09,plant-A,line9,machine4,DN,lot6,category 2,a2,code10,22,22
+2026-09-09,plant-B,line9,machine2,UP,lot9,category 3,b4,code3,23,23
+2026-09-09,plant-A,line5,machine4,UP,lot4,category 2,b4,code6,3,3
+2026-09-09,plant-B,line5,machine6,DN,lot7,pass,pass,,0,604
+2026-09-09,plant-B,line4,machine9,UP,lot4,pass,pass,,0,472
+2026-09-09,plant-B,line3,machine8,UP,lot7,category 2,b4,code2,18,18
+2026-09-09,plant-B,line3,machine1,UP,lot3,category 2,b4,code10,6,6
+2026-09-09,plant-B,line3,machine4,DN,lot7,category 1,b3,code1,18,18
+2026-09-09,plant-A,line9,machine6,UP,lot1,category 1,b2,code4,20,20
+2026-09-09,plant-A,line6,machine7,UP,lot5,category 1,a4,code10,18,18
+2026-09-09,,line1,machine6,UP,lot6,pass,pass,,0,762
+2026-09-09,plant-B,line3,machine3,UP,lot5,category 1,b1,code10,5,5
+2026-09-09,plant-B,line4,machine7,UP,lot2,category 3,a1,code8,4,4
+2026-09-09,plant-B,line9,machine4,DN,lot9,category 1,b2,code8,12,12
+2026-09-09,plant-B,line7,machine3,UP,lot8,pass,pass,,0,599
+2026-09-09,plant-B,line9,machine6,DN,lot9,category 1,a4,code8,11,11
+2026-09-09,plant-B,line9,machine5,DN,lot2,pass,pass,,0,718
+2026-09-09,plant-A,line2,machine8,UP,lot4,pass,pass,,0,671
+2026-09-09,plant-A,line5,machine8,DN,lot9,category 1,a2,code5,18,18
+2026-09-09,plant-A,line5,machine8,UP,lot3,pass,pass,,0,570
+2026-09-10,plant-B,line9,machine9,UP,lot2,category 1,a4,code10,7,7
+2026-09-10,plant-A,line1,machine8,UP,lot2,category 2,a3,code9,7,7
+2026-09-10,plant-A,line2,machine6,DN,lot6,category 2,a1,code10,21,21
+2026-09-10,plant-B,line9,machine2,DN,lot2,pass,pass,,0,343
+2026-09-10,plant-A,line7,machine6,DN,lot8,category 3,b4,code6,10,10
+2026-09-10,plant-A,line1,machine7,UP,lot4,category 2,b3,code4,14,14
+2026-09-10,plant-A,line8,machine8,UP,lot6,category 2,a3,code9,8,8
+2026-09-10,plant-B,line1,machine2,UP,lot8,category 2,a3,code8,12,12
+2026-09-10,plant-B,line3,machine6,UP,lot4,category 3,a1,code2,11,11
+2026-09-10,plant-A,line8,machine8,DN,lot9,category 1,b1,code8,23,23
+2026-09-10,plant-A,line8,machine2,DN,lot4,category 2,a4,code2,7,7
+2026-09-10,plant-A,line3,machine2,UP,lot8,category 2,a1,code1,23,23
+2026-09-10,plant-A,line5,machine4,DN,lot6,pass,pass,,0,565
+2026-09-10,plant-B,line9,machine7,DN,lot1,pass,pass,,0,774
+2026-09-10,plant-A,line5,machine2,DN,lot6,category 2,b3,code7,5,5
+2026-09-10,plant-A,line4,machine9,DN,lot2,category 2,b2,code5,3,3
+2026-09-10,plant-A,line9,machine4,DN,lot2,pass,pass,,0,845
+2026-09-10,plant-B,line9,machine2,UP,lot9,,b4,code2,22,22
+2026-09-10,plant-B,line5,machine8,DN,lot1,category 1,a3,code4,2,2
+2026-09-10,plant-A,line2,machine9,UP,lot6,category 1,b1,code3,1,1
+2026-09-10,plant-B,line2,machine2,UP,lot8,pass,pass,,0,447
+2026-09-10,plant-A,line6,machine9,DN,lot1,pass,pass,,0,839
+2026-09-10,plant-B,line9,machine6,UP,lot5,category 3,a1,code5,21,21
+2026-09-10,plant-B,line4,machine1,UP,lot9,category 3,a4,code2,19,19
+2026-09-10,plant-A,line7,machine2,DN,lot6,category 2,a4,code5,8,8
+2026-09-10,plant-A,line4,machine1,UP,lot8,pass,pass,,0,469
+2026-09-10,plant-A,line6,machine9,UP,lot3,category 3,a2,code3,9,9
+2026-09-10,plant-A,line7,machine9,UP,lot7,category 1,a4,code3,15,15
+2026-09-10,plant-B,line6,machine5,UP,lot4,category 1,b2,code9,1,1
+2026-09-10,plant-A,line5,machine3,UP,lot9,category 3,a4,code8,2,2
+2026-09-11,plant-B,line6,machine9,DN,lot7,category 1,b2,code1,16,16
+2026-09-11,plant-A,line2,machine5,UP,lot5,pass,pass,,0,524
+2026-09-11,plant-A,line3,machine1,UP,lot9,category 1,a1,code4,3,3
+2026-09-11,plant-B,line1,machine8,UP,lot7,category 3,b4,code6,12,12
+2026-09-11,plant-A,line9,machine3,DN,lot4,category 1,b2,code8,21,21
+2026-09-11,plant-B,line9,machine3,DN,lot7,category 3,a4,code4,22,22
+2026-09-11,plant-A,line6,machine2,DN,lot2,category 3,b3,code9,1,1
+2026-09-11,plant-B,line6,machine6,UP,lot2,category 1,b1,code6,8,8
+2026-09-11,plant-B,line1,machine9,UP,lot1,category 3,b4,code3,16,16
+2026-09-11,plant-B,line1,machine6,UP,lot1,category 2,b4,code4,1,1
+2026-09-11,plant-A,line5,machine1,DN,lot6,category 2,a1,code9,24,24
+2026-09-11,plant-A,line1,machine8,UP,lot3,pass,pass,,0,770
+2026-09-11,plant-A,line7,machine3,UP,lot1,category 3,a4,code8,8,8
+2026-09-11,plant-A,line1,machine7,DN,lot5,category 1,a3,code7,13,13
+2026-09-11,plant-A,line4,machine2,DN,lot2,category 2,a1,code4,18,18
+2026-09-11,plant-A,line8,machine4,UP,lot1,pass,pass,,0,531
+2026-09-11,,line9,machine7,DN,lot9,pass,pass,,0,401
+2026-09-11,plant-A,line2,machine3,DN,lot9,category 1,b3,code3,20,20
+2026-09-11,plant-A,line2,machine6,UP,lot8,category 2,a1,code9,12,12
+2026-09-11,plant-A,line7,machine5,UP,lot1,category 3,b3,code9,23,23
+2026-09-11,plant-B,line5,machine6,UP,lot2,category 3,b1,code7,9,9
+2026-09-11,plant-B,line2,machine3,UP,lot9,category 3,b3,code8,11,11
+2026-09-11,plant-B,line9,machine6,DN,lot1,category 3,a2,code8,5,5
+2026-09-11,plant-A,line8,machine1,UP,lot4,category 3,b1,code10,18,18
+2026-09-11,plant-A,line1,machine1,DN,lot5,category 2,b4,code4,24,24
+2026-09-11,plant-A,line4,machine1,UP,lot2,category 1,b2,code8,24,24
+2026-09-11,plant-A,line4,machine6,UP,lot3,category 2,b2,code5,10,10
+2026-09-11,plant-A,line5,machine5,UP,lot7,category 2,a4,code2,9,9
+2026-09-11,plant-A,line4,machine1,UP,lot6,category 1,b1,code9,17,17
+2026-09-11,plant-A,line6,machine5,UP,lot7,category 3,a3,code10,2,2
+2026-09-12,plant-A,line1,machine5,DN,lot5,category 3,b3,code4,19,19
+2026-09-12,plant-A,line8,machine3,UP,lot2,pass,pass,,0,338
+2026-09-12,plant-A,line1,machine3,DN,lot2,category 2,a1,code8,19,19
+2026-09-12,plant-A,line8,machine5,UP,lot5,category 2,a3,code5,2,2
+2026-09-12,plant-A,line6,machine5,DN,lot7,category 1,a1,code8,20,20
+2026-09-12,plant-B,line6,machine1,UP,lot3,category 2,b4,code4,6,6
+2026-09-12,plant-B,line4,machine6,UP,lot1,category 2,b4,code7,15,15
+2026-09-12,plant-B,line9,machine3,DN,lot1,category 3,b1,code2,19,19
+2026-09-12,plant-A,line4,machine7,UP,lot3,category 3,a1,code8,20,20
+2026-09-12,plant-A,line1,machine1,DN,lot8,pass,pass,,0,346
+2026-09-12,plant-A,line5,machine7,DN,lot2,category 2,b1,code6,11,11
+2026-09-12,plant-B,line5,machine2,UP,lot8,category 3,b4,code9,15,15
+2026-09-12,plant-B,line8,machine1,DN,lot7,category 2,b3,code3,1,1
+2026-09-12,plant-A,line1,machine5,UP,lot8,category 1,a4,code9,1,1
+2026-09-12,plant-B,line8,machine7,UP,lot2,category 2,b2,code4,6,6
+2026-09-12,plant-B,line3,machine2,UP,lot3,category 3,b2,code2,8,8
+2026-09-12,plant-B,line6,machine2,DN,lot8,pass,pass,,0,310
+2026-09-12,plant-B,line7,machine3,DN,lot7,category 2,b4,code7,22,22
+2026-09-12,plant-A,line7,machine1,UP,lot9,category 2,b1,code5,19,19
+2026-09-12,plant-A,line9,machine6,UP,lot1,category 3,b3,code10,10,10
+2026-09-12,plant-B,line4,machine4,DN,lot2,category 2,a2,code4,21,21
+2026-09-12,plant-B,line4,machine7,DN,lot2,category 3,b3,code2,18,18
+2026-09-12,plant-A,line9,machine1,UP,lot9,category 3,a1,code10,18,18
+2026-09-12,plant-B,line1,machine7,DN,lot2,category 1,b2,code5,12,12
+2026-09-12,plant-A,line9,machine1,UP,lot3,category 1,a3,code2,12,12
+2026-09-12,plant-B,line3,machine3,UP,lot6,category 3,b1,code1,23,23
+2026-09-12,plant-A,line9,machine8,UP,lot7,category 1,b1,code5,1,1
+2026-09-12,plant-A,line1,machine4,UP,lot9,category 2,a1,code5,20,20
+2026-09-12,plant-B,line5,machine1,UP,lot6,category 3,a4,code9,3,3
+2026-09-12,plant-B,line3,machine9,DN,lot7,category 1,b1,code2,5,5
+2026-09-13,plant-A,line2,machine9,UP,lot6,category 3,b2,code8,22,22
+2026-09-13,plant-A,line7,machine2,UP,lot8,category 3,a4,code2,3,3
+2026-09-13,plant-B,line5,machine8,DN,lot6,category 1,a4,code5,11,11
+2026-09-13,plant-A,line1,machine6,DN,lot5,category 3,b1,code10,14,14
+2026-09-13,plant-B,line8,machine2,DN,lot1,category 2,a2,code3,3,3
+2026-09-13,plant-A,line6,machine4,DN,lot9,category 2,a4,code10,6,6
+2026-09-13,plant-A,line1,machine8,DN,lot6,category 1,a2,code9,2,2
+2026-09-13,plant-A,line5,machine9,UP,lot7,pass,pass,,0,718
+2026-09-13,plant-B,line5,machine4,UP,lot7,category 3,a3,code9,11,11
+2026-09-13,plant-A,line9,machine8,DN,lot6,category 3,a4,code8,3,3
+2026-09-13,plant-A,line2,machine2,DN,lot7,category 2,a4,code10,8,8
+2026-09-13,plant-A,line8,machine4,DN,lot6,category 1,a1,code10,12,12
+2026-09-13,plant-A,line9,machine3,UP,lot5,category 3,b3,code1,17,17
+2026-09-13,plant-B,line8,machine6,DN,lot9,category 3,b3,code9,14,14
+2026-09-13,plant-A,line2,machine5,DN,lot4,pass,pass,,0,560
+2026-09-13,plant-B,line1,machine2,DN,lot2,category 3,b4,code10,21,21
+2026-09-13,plant-B,line6,machine6,DN,lot2,category 2,a2,code3,6,6
+2026-09-13,plant-B,line1,machine1,DN,lot2,category 3,b3,code6,9,9
+2026-09-13,plant-A,line8,machine9,DN,lot5,pass,pass,,0,800
+2026-09-13,plant-A,line7,machine6,DN,lot2,category 2,b2,code4,12,12
+2026-09-13,plant-A,line2,machine1,UP,lot5,category 2,a2,code7,8,8
+2026-09-13,plant-B,line4,machine1,UP,lot7,pass,pass,,0,792
+2026-09-13,plant-B,line2,machine6,UP,lot6,pass,pass,,0,243
+2026-09-13,,line4,machine5,DN,lot5,pass,pass,,0,927
+2026-09-13,plant-B,line2,machine7,DN,lot6,category 1,a3,code9,3,3
+2026-09-13,plant-A,line4,machine9,DN,lot8,category 3,a3,code2,19,19
+2026-09-13,plant-A,line7,machine1,UP,lot4,category 1,b2,code3,3,3
+2026-09-13,plant-A,line1,machine2,UP,lot4,category 1,a4,code5,18,18
+2026-09-13,plant-B,line1,machine4,DN,lot7,category 2,a3,code9,9,9
+2026-09-13,plant-A,line1,machine6,DN,lot8,category 1,a1,code4,5,5
+2026-09-14,plant-B,line3,machine5,UP,lot3,category 3,b1,code7,15,15
+2026-09-14,plant-B,line8,machine5,UP,lot4,category 3,a2,code4,15,15
+2026-09-14,plant-A,line8,machine9,DN,lot3,category 3,b2,code9,4,4
+2026-09-14,plant-A,line5,machine1,UP,lot8,category 3,b4,code4,2,2
+2026-09-14,plant-B,line4,machine3,DN,lot9,category 1,b3,code5,24,24
+2026-09-14,plant-A,line5,machine5,DN,lot9,category 1,b1,code9,22,22
+2026-09-14,plant-A,line8,machine7,UP,lot6,category 1,b1,code4,3,3
+2026-09-14,plant-B,line4,machine6,UP,lot4,category 3,a1,code5,13,13
+2026-09-14,plant-B,line5,machine9,DN,lot3,category 2,a1,code6,4,4
+2026-09-14,plant-B,line6,machine5,DN,lot5,category 1,b4,code7,10,10
+2026-09-14,plant-A,line2,machine9,UP,lot6,category 1,a1,code4,16,16
+2026-09-14,plant-A,line5,machine5,DN,lot1,category 1,b3,code9,19,19
+2026-09-14,plant-A,line8,machine2,DN,lot7,,b2,code1,15,15
+2026-09-14,plant-A,line9,machine1,DN,lot9,category 1,a1,code6,6,6
+2026-09-14,plant-A,line3,machine1,UP,lot1,category 3,b1,code7,1,1
+2026-09-14,plant-B,line4,machine4,DN,lot1,category 3,a3,code4,3,3
+2026-09-14,plant-B,line1,machine2,UP,lot7,pass,pass,,0,927
+2026-09-14,plant-A,line6,machine9,UP,lot1,category 3,b1,code1,5,5
+2026-09-14,plant-B,line8,machine3,UP,lot9,category 3,a4,code7,2,2
+2026-09-14,plant-A,line9,machine5,DN,lot7,category 2,b4,code7,3,3
+2026-09-14,plant-A,line3,machine3,DN,lot4,category 1,a1,code5,11,11
+2026-09-14,plant-B,line1,machine6,UP,lot5,pass,pass,,0,768
+2026-09-14,plant-A,line6,machine8,UP,lot1,category 2,a2,code9,19,19
+2026-09-14,plant-A,line2,machine7,DN,lot1,category 1,a4,code6,7,7
+2026-09-14,plant-B,line7,machine3,DN,lot6,category 1,b4,code4,24,24
+2026-09-14,plant-B,line9,machine9,DN,lot1,category 2,b2,code10,5,5
+2026-09-14,plant-A,line5,machine2,DN,lot4,category 1,a1,code1,12,12
+2026-09-14,plant-A,line2,machine9,UP,lot2,pass,pass,,0,835
+2026-09-14,plant-B,line6,machine7,UP,lot6,category 3,a1,code6,20,20
+2026-09-14,plant-B,line3,machine2,DN,lot5,category 2,b2,code3,6,6
+2026-09-15,,line9,machine1,DN,lot6,category 1,a3,code4,2,2
+2026-09-15,plant-A,line3,machine9,DN,lot5,category 3,a3,code6,19,19
+2026-09-15,plant-A,line8,machine6,DN,lot2,category 2,a1,code1,17,17
+2026-09-15,plant-A,line1,machine9,DN,lot3,category 1,a2,code4,9,9
+2026-09-15,plant-B,line6,machine6,UP,lot2,category 3,b2,code2,3,3
+2026-09-15,plant-A,line9,machine4,UP,lot9,category 3,a2,code3,24,24
+2026-09-15,plant-A,line9,machine9,DN,lot2,category 1,b4,code7,17,17
+2026-09-15,plant-A,line4,machine1,UP,lot5,category 3,b4,code2,8,8
+2026-09-15,plant-B,line3,machine1,UP,lot2,category 2,b4,code7,10,10
+2026-09-15,plant-A,line3,machine4,UP,lot8,category 2,a3,code10,6,6
+2026-09-15,plant-B,line8,machine3,DN,lot1,category 1,b1,code6,11,11
+2026-09-15,plant-A,line1,machine6,UP,lot9,category 2,b4,code5,2,2
+2026-09-15,plant-A,line6,machine8,DN,lot2,category 3,b1,code2,2,2
+2026-09-15,plant-B,line9,machine4,DN,lot7,category 1,a3,code6,24,24
+2026-09-15,plant-A,line1,machine7,UP,lot6,category 2,a1,code1,6,6
+2026-09-15,plant-B,line5,machine1,DN,lot5,pass,pass,,0,441
+2026-09-15,plant-A,line4,machine3,UP,lot4,category 1,a1,code4,12,12
+2026-09-15,plant-B,line7,machine9,UP,lot4,category 1,b1,code7,14,14
+2026-09-15,plant-B,line5,machine4,DN,lot1,category 2,a2,code7,16,16
+2026-09-15,plant-A,line9,machine6,UP,lot3,category 3,b2,code9,22,22
+2026-09-15,plant-A,line1,machine7,DN,lot3,category 2,a1,code6,9,9
+2026-09-15,plant-A,line7,machine4,UP,lot7,pass,pass,,0,244
+2026-09-15,plant-B,line5,machine2,UP,lot6,pass,pass,,0,819
+2026-09-15,plant-B,line6,machine1,DN,lot1,category 2,a3,code10,19,19
+2026-09-15,plant-B,line3,machine4,DN,lot9,category 2,a4,code7,23,23
+2026-09-15,,line3,machine6,UP,lot8,category 3,b1,code9,15,15
+2026-09-15,plant-A,line3,machine3,DN,lot8,category 3,a2,code1,18,18
+2026-09-15,plant-A,line6,machine1,DN,lot1,category 1,b4,code7,24,24
+2026-09-15,plant-A,line5,machine1,UP,lot7,category 2,a1,code7,21,21
+2026-09-15,plant-B,line1,machine9,UP,lot3,category 3,b1,code5,11,11
+2026-09-16,plant-B,line9,machine6,DN,lot9,category 1,b1,code9,22,22
+2026-09-16,plant-A,line3,machine6,UP,lot7,category 2,b1,code3,19,19
+2026-09-16,plant-A,line3,machine5,DN,lot9,category 2,a3,code2,8,8
+2026-09-16,plant-B,line9,machine8,DN,lot4,category 1,a1,code2,2,2
+2026-09-16,plant-B,line4,machine3,UP,lot3,category 2,b2,code8,23,23
+2026-09-16,plant-A,line4,machine2,DN,lot1,category 1,a4,code2,24,24
+2026-09-16,plant-A,line4,machine8,UP,lot5,category 1,b2,code7,20,20
+2026-09-16,plant-A,line3,machine7,DN,lot9,pass,pass,,0,419
+2026-09-16,plant-B,line1,machine7,UP,lot3,category 1,b4,code10,4,4
+2026-09-16,plant-A,line6,machine6,DN,lot8,category 3,a1,code8,13,13
+2026-09-16,plant-B,line1,machine2,DN,lot3,category 2,b3,code2,17,17
+2026-09-16,plant-B,line9,machine3,DN,lot3,category 2,b1,code1,13,13
+2026-09-16,plant-A,line4,machine7,DN,lot7,category 1,b3,code4,23,23
+2026-09-16,plant-B,line4,machine5,DN,lot1,category 1,b1,code6,6,6
+2026-09-16,plant-B,line3,machine5,DN,lot8,category 2,a2,code6,24,24
+2026-09-16,plant-B,line8,machine7,DN,lot6,category 2,a2,code8,11,11
+2026-09-16,plant-A,line6,machine4,DN,lot3,category 1,a3,code3,15,15
+2026-09-16,plant-A,line1,machine3,DN,lot5,category 3,b2,code5,3,3
+2026-09-16,plant-A,line8,machine2,UP,lot4,pass,pass,,0,894
+2026-09-16,plant-A,line3,machine3,DN,lot5,category 1,b1,code10,19,19
+2026-09-16,plant-A,line3,machine2,DN,lot9,category 3,b3,code8,11,11
+2026-09-16,plant-A,line5,machine5,UP,lot5,category 2,a4,code6,17,17
+2026-09-16,plant-B,line9,machine2,UP,lot7,category 2,a2,code8,23,23
+2026-09-16,plant-B,line5,machine7,UP,lot9,category 1,b2,code10,22,22
+2026-09-16,plant-B,line7,machine4,UP,lot8,pass,pass,,0,605
+2026-09-16,plant-A,line1,machine2,DN,lot2,category 1,b3,code8,22,22
+2026-09-16,plant-B,line3,machine8,DN,lot2,category 1,a1,code6,2,2
+2026-09-16,plant-B,line8,machine8,UP,lot6,category 1,b4,code10,17,17
+2026-09-16,plant-B,line7,machine7,DN,lot8,category 3,b1,code7,24,24
+2026-09-16,plant-A,line3,machine3,DN,lot5,category 2,a1,code7,8,8
+2026-09-17,plant-A,line4,machine7,UP,lot7,category 1,a1,code10,19,19
+2026-09-17,plant-B,line2,machine7,DN,lot2,category 3,a4,code2,6,6
+2026-09-17,plant-B,line4,machine5,DN,lot3,category 1,b2,code9,8,8
+2026-09-17,plant-B,line8,machine7,DN,lot8,pass,pass,,0,292
+2026-09-17,plant-B,line7,machine1,DN,lot4,category 1,a2,code6,4,4
+2026-09-17,plant-B,line6,machine8,UP,lot8,pass,pass,,0,670
+2026-09-17,plant-A,line7,machine5,DN,lot6,pass,pass,,0,465
+2026-09-17,plant-B,line8,machine3,DN,lot7,category 1,a1,code7,10,10
+2026-09-17,plant-B,line5,machine8,DN,lot9,category 2,b1,code9,16,16
+2026-09-17,plant-B,line8,machine1,UP,lot7,category 3,b1,code1,9,9
+2026-09-17,plant-B,line5,machine2,UP,lot9,category 3,a4,code6,19,19
+2026-09-17,plant-A,line3,machine2,DN,lot7,category 3,a4,code9,8,8
+2026-09-17,plant-A,line1,machine5,DN,lot3,pass,pass,,0,788
+2026-09-17,plant-B,line6,machine4,DN,lot7,category 1,b1,code6,6,6
+2026-09-17,plant-A,line3,machine3,UP,lot6,category 2,b4,code6,6,6
+2026-09-17,plant-B,line9,machine6,DN,lot3,category 2,a3,code1,5,5
+2026-09-17,plant-A,line9,machine5,DN,lot4,pass,pass,,0,686
+2026-09-17,plant-B,line2,machine1,DN,lot4,category 1,a1,code6,4,4
+2026-09-17,plant-A,line1,machine8,DN,lot8,category 2,a3,code7,14,14
+2026-09-17,plant-A,line7,machine5,UP,lot9,category 1,b4,code7,2,2
+2026-09-17,plant-A,line1,machine7,UP,lot2,category 1,b2,code2,13,13
+2026-09-17,plant-B,line5,machine7,UP,lot8,category 3,a4,code9,20,20
+2026-09-17,plant-A,line5,machine7,DN,lot4,category 2,a1,code9,20,20
+2026-09-17,plant-A,line1,machine3,UP,lot2,category 1,b4,code1,13,13
+2026-09-17,plant-A,line8,machine8,UP,lot1,,pass,,0,306
+2026-09-17,plant-B,line3,machine7,UP,lot1,category 1,b4,code10,21,21
+2026-09-17,plant-A,line8,machine6,DN,lot2,category 2,b1,code3,22,22
+2026-09-17,plant-A,line3,machine3,UP,lot8,pass,pass,,0,348
+2026-09-17,plant-A,line8,machine3,UP,lot1,category 2,a3,code8,6,6
+2026-09-17,plant-B,line7,machine5,UP,lot4,category 2,a2,code1,11,11
+2026-09-18,plant-A,line4,machine1,UP,lot4,category 3,a4,code3,3,3
+2026-09-18,plant-B,line1,machine2,DN,lot8,pass,pass,,0,808
+2026-09-18,plant-B,line8,machine2,DN,lot6,category 3,a1,code8,12,12
+2026-09-18,plant-A,line9,machine2,UP,lot8,category 2,b2,code10,9,9
+2026-09-18,plant-B,line8,machine3,UP,lot8,category 1,a3,code10,16,16
+2026-09-18,plant-A,line9,machine5,DN,lot2,category 3,b3,code2,20,20
+2026-09-18,plant-B,line7,machine7,DN,lot1,category 2,a1,code2,3,3
+2026-09-18,plant-A,line4,machine1,DN,lot6,category 1,b2,code1,20,20
+2026-09-18,plant-A,line4,machine9,UP,lot8,category 1,a2,code5,6,6
+2026-09-18,plant-B,line7,machine4,UP,lot2,category 1,a4,code3,22,22
+2026-09-18,plant-B,line3,machine8,DN,lot9,category 1,b4,code7,11,11
+2026-09-18,plant-A,line5,machine7,UP,lot8,category 3,b1,code6,5,5
+2026-09-18,plant-B,line2,machine1,DN,lot3,pass,pass,,0,229
+2026-09-18,plant-B,line7,machine8,UP,lot6,category 2,b2,code9,7,7
+2026-09-18,plant-A,line8,machine2,UP,lot4,category 1,a4,code1,23,23
+2026-09-18,plant-A,line1,machine1,UP,lot6,category 2,b1,code1,22,22
+2026-09-18,plant-A,line8,machine1,UP,lot6,category 2,b1,code1,6,6
+2026-09-18,plant-B,line6,machine3,DN,lot8,category 1,b3,code6,13,13
+2026-09-18,plant-A,line8,machine3,DN,lot6,category 1,b2,code10,17,17
+2026-09-18,plant-B,line5,machine4,DN,lot6,category 3,b4,code2,18,18
+2026-09-18,plant-A,line7,machine7,UP,lot3,category 3,a3,code3,17,17
+2026-09-18,plant-B,line4,machine3,DN,lot8,category 1,b1,code1,7,7
+2026-09-18,plant-A,line3,machine4,UP,lot6,category 2,b4,code5,16,16
+2026-09-18,plant-B,line4,machine8,UP,lot4,category 1,a2,code2,3,3
+2026-09-18,plant-B,line9,machine7,UP,lot2,category 3,b4,code3,7,7
+2026-09-18,plant-A,line3,machine6,DN,lot2,category 1,b1,code7,2,2
+2026-09-18,plant-A,line7,machine5,DN,lot6,category 2,b1,code4,23,23
+2026-09-18,plant-B,line2,machine8,DN,lot9,category 1,a2,code4,6,6
+2026-09-18,plant-A,line3,machine1,DN,lot4,category 3,a4,code1,9,9
+2026-09-18,plant-B,line6,machine8,DN,lot3,category 2,a1,code4,22,22
+2026-09-19,plant-A,line3,machine9,DN,lot7,category 2,a1,code2,17,17
+2026-09-19,plant-A,line7,machine3,UP,lot5,category 3,a4,code7,2,2
+2026-09-19,plant-B,line9,machine9,DN,lot7,pass,pass,,0,838
+2026-09-19,plant-B,line3,machine4,DN,lot2,,pass,,0,298
+2026-09-19,plant-A,line5,machine6,UP,lot7,category 3,a1,code2,12,12
+2026-09-19,plant-B,line6,machine1,UP,lot2,pass,pass,,0,682
+2026-09-19,plant-B,line6,machine9,DN,lot4,pass,pass,,0,841
+2026-09-19,plant-A,line8,machine7,UP,lot7,pass,pass,,0,774
+2026-09-19,plant-B,line1,machine1,DN,lot4,pass,pass,,0,719
+2026-09-19,plant-B,line4,machine6,UP,lot5,category 2,b3,code10,7,7
+2026-09-19,plant-B,line5,machine3,UP,lot4,pass,pass,,0,630
+2026-09-19,plant-A,line5,machine5,UP,lot7,category 1,a4,code9,6,6
+2026-09-19,plant-B,line6,machine2,UP,lot6,category 2,b1,code3,23,23
+2026-09-19,plant-A,line6,machine4,DN,lot4,category 3,a4,code9,7,7
+2026-09-19,plant-B,line6,machine4,UP,lot9,pass,pass,,0,347
+2026-09-19,plant-B,line2,machine2,UP,lot4,category 3,b2,code5,22,22
+2026-09-19,plant-A,line2,machine9,DN,lot7,category 3,a2,code3,21,21
+2026-09-19,plant-A,line5,machine2,UP,lot4,category 2,a2,code2,24,24
+2026-09-19,plant-B,line7,machine5,UP,lot8,category 1,a3,code7,21,21
+2026-09-19,plant-B,line2,machine1,UP,lot1,category 3,a4,code5,10,10
+2026-09-19,plant-B,line8,machine4,DN,lot3,category 2,a3,code8,18,18
+2026-09-19,plant-A,line3,machine3,DN,lot1,category 2,a2,code1,16,16
+2026-09-19,plant-B,line4,machine6,DN,lot9,pass,pass,,0,295
+2026-09-19,plant-B,line8,machine1,UP,lot8,category 1,b2,code10,15,15
+2026-09-19,plant-B,line6,machine9,DN,lot2,pass,pass,,0,562
+2026-09-19,plant-B,line2,machine9,DN,lot8,pass,pass,,0,272
+2026-09-19,plant-A,line9,machine2,DN,lot4,category 3,a4,code2,1,1
+2026-09-19,plant-B,line8,machine6,UP,lot2,category 3,a1,code2,15,15
+2026-09-19,plant-B,line4,machine7,DN,lot5,category 2,b2,code5,18,18
+2026-09-19,plant-B,line6,machine8,DN,lot4,pass,pass,,0,884
+2026-09-20,plant-B,line4,machine8,UP,lot1,category 1,a4,code4,18,18
+2026-09-20,plant-A,line5,machine4,UP,lot8,category 3,b2,code7,14,14
+2026-09-20,plant-B,line1,machine7,DN,lot7,category 2,b4,code1,9,9
+2026-09-20,plant-B,line2,machine5,UP,lot4,category 3,b4,code1,21,21
+2026-09-20,plant-A,line3,machine6,DN,lot7,category 1,a3,code4,3,3
+2026-09-20,plant-A,line6,machine9,UP,lot6,category 2,b1,code5,8,8
+2026-09-20,plant-B,line7,machine7,UP,lot6,pass,pass,,0,543
+2026-09-20,plant-B,line3,machine4,DN,lot3,category 1,b3,code10,21,21
+2026-09-20,plant-A,line2,machine4,DN,lot8,category 1,b4,code3,1,1
+2026-09-20,plant-A,line5,machine4,UP,lot4,category 1,b3,code4,19,19
+2026-09-20,plant-B,line9,machine6,DN,lot4,category 3,b1,code6,11,11
+2026-09-20,plant-B,line8,machine3,DN,lot7,pass,pass,,0,498
+2026-09-20,plant-A,line4,machine8,UP,lot7,category 3,a4,code7,14,14
+2026-09-20,plant-B,line6,machine2,UP,lot3,pass,pass,,0,647
+2026-09-20,plant-B,line6,machine1,DN,lot1,category 3,b4,code8,20,20
+2026-09-20,plant-B,line7,machine7,UP,lot4,category 1,a4,code10,6,6
+2026-09-20,plant-A,line3,machine5,UP,lot5,category 1,b1,code9,22,22
+2026-09-20,plant-B,line6,machine4,UP,lot1,category 3,b2,code10,11,11
+2026-09-20,plant-A,line7,machine7,DN,lot9,category 2,a1,code6,19,19
+2026-09-20,plant-B,line3,machine1,UP,lot4,pass,pass,,0,292
+2026-09-20,plant-B,line8,machine9,UP,lot6,category 2,a3,code5,22,22
+2026-09-20,plant-B,line7,machine9,DN,lot7,category 2,a1,code2,17,17
+2026-09-20,plant-B,line9,machine7,DN,lot2,pass,pass,,0,941
+2026-09-20,plant-A,line1,machine5,DN,lot2,category 1,a4,code6,4,4
+2026-09-20,plant-B,line2,machine9,UP,lot3,category 1,b4,code3,4,4
+2026-09-20,plant-A,line9,machine2,DN,lot3,category 3,a3,code4,5,5
+2026-09-20,plant-B,line7,machine9,DN,lot6,pass,pass,,0,402
+2026-09-20,plant-B,line4,machine2,DN,lot5,category 3,b3,code1,23,23
+2026-09-20,plant-B,line6,machine8,DN,lot6,category 3,b1,code2,5,5
+2026-09-20,plant-B,line1,machine5,DN,lot6,pass,pass,,0,354
+2026-09-21,plant-B,line5,machine7,UP,lot1,category 3,b2,code5,15,15
+2026-09-21,plant-A,line5,machine6,DN,lot3,category 3,a3,code2,12,12
+2026-09-21,plant-B,line1,machine4,UP,lot2,category 1,a2,code8,22,22
+2026-09-21,plant-A,line6,machine9,UP,lot9,category 1,b3,code7,19,19
+2026-09-21,plant-A,line6,machine5,UP,lot5,category 2,b1,code10,7,7
+2026-09-21,plant-A,line3,machine3,DN,lot3,category 2,a4,code6,13,13
+2026-09-21,plant-A,line8,machine8,UP,lot4,category 3,a4,code3,21,21
+2026-09-21,plant-B,line7,machine3,DN,lot9,pass,pass,,0,533
+2026-09-21,plant-A,line7,machine7,DN,lot2,category 1,b2,code8,17,17
+2026-09-21,plant-A,line8,machine8,UP,lot9,category 2,a4,code9,17,17
+2026-09-21,plant-B,line9,machine4,UP,lot7,category 3,b2,code5,11,11
+2026-09-21,plant-B,line2,machine9,DN,lot3,pass,pass,,0,255
+2026-09-21,plant-A,line9,machine8,DN,lot4,category 1,a4,code9,2,2
+2026-09-21,plant-B,line8,machine6,DN,lot8,,pass,,0,631
+2026-09-21,plant-A,line5,machine9,DN,lot6,pass,pass,,0,566
+2026-09-21,plant-B,line7,machine2,UP,lot2,category 3,a1,code7,11,11
+2026-09-21,plant-A,line5,machine6,UP,lot8,category 1,a1,code3,11,11
+2026-09-21,plant-A,line8,machine6,UP,lot2,category 3,a4,code1,19,19
+2026-09-21,plant-B,line1,machine5,DN,lot3,category 2,b3,code3,8,8
+2026-09-21,plant-A,line7,machine6,DN,lot3,category 1,b2,code8,12,12
+2026-09-21,plant-B,line5,machine8,UP,lot9,category 1,a1,code6,23,23
+2026-09-21,plant-A,line7,machine2,UP,lot1,category 1,a1,code7,23,23
+2026-09-21,plant-B,line2,machine8,UP,lot8,category 3,a2,code7,18,18
+2026-09-21,plant-A,line6,machine9,UP,lot9,pass,pass,,0,732
+2026-09-21,plant-B,line1,machine7,DN,lot5,category 2,b1,code1,9,9
+2026-09-21,plant-B,line2,machine9,DN,lot9,pass,pass,,0,749
+2026-09-21,plant-A,line2,machine8,UP,lot7,pass,pass,,0,554
+2026-09-21,plant-A,line2,machine1,DN,lot8,pass,pass,,0,948
+2026-09-21,plant-A,line4,machine9,UP,lot1,category 2,a3,code2,16,16
+2026-09-21,plant-A,line7,machine3,UP,lot6,category 3,a1,code1,10,10
+2026-09-22,plant-B,line8,machine7,DN,lot2,pass,pass,,0,544
+2026-09-22,plant-B,line5,machine6,DN,lot9,category 3,b3,code10,10,10
+2026-09-22,plant-B,line2,machine8,DN,lot9,category 3,b3,code4,8,8
+2026-09-22,plant-A,line4,machine1,DN,lot3,category 1,a4,code5,23,23
+2026-09-22,plant-A,line2,machine2,UP,lot4,,b1,code10,9,9
+2026-09-22,plant-B,line9,machine5,UP,lot3,category 1,b1,code10,13,13
+2026-09-22,plant-A,line5,machine8,UP,lot4,category 3,a2,code6,24,24
+2026-09-22,plant-A,line8,machine7,UP,lot7,category 1,b2,code10,19,19
+2026-09-22,plant-A,line9,machine2,DN,lot7,category 1,b1,code2,13,13
+2026-09-22,plant-B,line7,machine6,UP,lot3,category 2,a3,code6,20,20
+2026-09-22,plant-A,line6,machine3,DN,lot8,category 1,a4,code9,12,12
+2026-09-22,plant-A,line1,machine3,DN,lot4,category 3,b2,code3,17,17
+2026-09-22,plant-A,line6,machine8,UP,lot8,pass,pass,,0,921
+2026-09-22,plant-B,line3,machine1,UP,lot7,category 3,a2,code2,4,4
+2026-09-22,plant-B,line2,machine7,DN,lot9,pass,pass,,0,638
+2026-09-22,plant-B,line3,machine2,DN,lot3,category 3,b2,code3,16,16
+2026-09-22,plant-B,line7,machine8,UP,lot4,category 2,a3,code7,9,9
+2026-09-22,plant-A,line8,machine8,DN,lot4,category 3,a3,code3,22,22
+2026-09-22,plant-A,line1,machine6,UP,lot7,category 1,a3,code10,21,21
+2026-09-22,plant-A,line4,machine5,UP,lot1,category 3,b4,code5,16,16
+2026-09-22,plant-B,line3,machine4,DN,lot1,category 3,a2,code2,22,22
+2026-09-22,plant-A,line6,machine2,DN,lot7,category 3,a3,code9,2,2
+2026-09-22,plant-B,line4,machine1,UP,lot1,category 2,b2,code9,2,2
+2026-09-22,plant-A,line7,machine9,DN,lot8,pass,pass,,0,546
+2026-09-22,plant-A,line5,machine9,DN,lot4,category 1,b1,code5,22,22
+2026-09-22,plant-B,line2,machine1,UP,lot1,pass,pass,,0,641
+2026-09-22,plant-B,line5,machine7,DN,lot6,pass,pass,,0,792
+2026-09-22,plant-A,line5,machine4,DN,lot3,category 1,b1,code8,9,9
+2026-09-22,plant-A,line2,machine9,UP,lot4,category 2,b4,code6,22,22
+2026-09-22,plant-A,line6,machine1,DN,lot7,category 1,b3,code1,1,1
+2026-09-23,plant-B,line2,machine1,DN,lot9,pass,pass,,0,638
+2026-09-23,plant-B,line2,machine7,DN,lot8,pass,pass,,0,255
+2026-09-23,plant-B,line2,machine6,UP,lot1,category 1,a3,code7,10,10
+2026-09-23,plant-B,line7,machine6,UP,lot2,category 2,a4,code3,7,7
+2026-09-23,plant-B,line7,machine8,DN,lot6,category 2,a1,code4,14,14
+2026-09-23,plant-B,line5,machine9,UP,lot3,category 3,b2,code4,24,24
+2026-09-23,plant-B,line1,machine6,UP,lot1,pass,pass,,0,735
+2026-09-23,plant-A,line3,machine6,UP,lot9,category 3,a4,code3,22,22
+2026-09-23,plant-B,line3,machine9,DN,lot2,category 1,b3,code2,23,23
+2026-09-23,plant-B,line7,machine9,UP,lot8,category 2,a3,code8,23,23
+2026-09-23,plant-B,line2,machine3,DN,lot1,pass,pass,,0,676
+2026-09-23,plant-A,line3,machine1,UP,lot5,pass,pass,,0,727
+2026-09-23,plant-A,line6,machine8,DN,lot1,pass,pass,,0,811
+2026-09-23,plant-A,line1,machine9,UP,lot7,category 3,a4,code5,7,7
+2026-09-23,plant-B,line4,machine7,DN,lot3,category 2,a2,code2,17,17
+2026-09-23,plant-B,line6,machine9,DN,lot1,category 2,b3,code5,6,6
+2026-09-23,plant-B,line1,machine7,UP,lot7,category 3,a4,code10,1,1
+2026-09-23,plant-A,line7,machine9,UP,lot2,pass,pass,,0,766
+2026-09-23,plant-B,line7,machine6,UP,lot3,category 3,a3,code7,2,2
+2026-09-23,plant-A,line7,machine7,UP,lot2,category 3,b3,code9,1,1
+2026-09-23,plant-B,line6,machine7,DN,lot7,category 2,a2,code4,21,21
+2026-09-23,plant-A,line1,machine3,UP,lot3,category 1,b4,code1,14,14
+2026-09-23,plant-B,line2,machine4,DN,lot7,category 1,b3,code9,23,23
+2026-09-23,plant-B,line1,machine9,UP,lot5,category 2,a1,code8,8,8
+2026-09-23,plant-A,line1,machine8,UP,lot9,category 2,b4,code9,24,24
+2026-09-23,plant-A,line1,machine5,DN,lot8,category 2,a3,code5,21,21
+2026-09-23,plant-A,line8,machine1,DN,lot4,category 1,b1,code2,17,17
+2026-09-23,plant-A,line4,machine2,UP,lot4,category 3,a3,code9,13,13
+2026-09-23,plant-A,line5,machine7,UP,lot4,category 2,a1,code10,14,14
+2026-09-23,plant-B,line5,machine3,DN,lot1,category 2,a3,code1,12,12
+2026-09-24,plant-A,line8,machine3,UP,lot1,category 3,a2,code3,8,8
+2026-09-24,plant-A,line6,machine7,DN,lot4,category 1,b2,code1,17,17
+2026-09-24,plant-B,line8,machine7,DN,lot6,pass,pass,,0,347
+2026-09-24,plant-A,line7,machine1,DN,lot9,pass,pass,,0,500
+2026-09-24,plant-A,line4,machine4,UP,lot2,category 2,a4,code1,12,12
+2026-09-24,plant-A,line8,machine2,DN,lot5,category 2,a2,code9,23,23
+2026-09-24,plant-A,line1,machine2,DN,lot4,category 3,b2,code3,23,23
+2026-09-24,plant-B,line4,machine3,DN,lot6,category 1,b4,code4,22,22
+2026-09-24,plant-B,line6,machine5,UP,lot8,pass,pass,,0,270
+2026-09-24,plant-A,line6,machine4,UP,lot5,category 3,b1,code7,5,5
+2026-09-24,plant-B,line3,machine5,UP,lot5,pass,pass,,0,492
+2026-09-24,plant-A,line6,machine1,DN,lot5,pass,pass,,0,348
+2026-09-24,plant-B,line8,machine8,UP,lot3,category 3,b2,code7,14,14
+2026-09-24,plant-B,line7,machine2,UP,lot1,category 1,a3,code3,1,1
+2026-09-24,plant-B,line2,machine5,DN,lot9,category 2,b1,code3,2,2
+2026-09-24,plant-B,line2,machine6,DN,lot3,pass,pass,,0,466
+2026-09-24,plant-A,line9,machine2,DN,lot5,category 2,b1,code4,16,16
+2026-09-24,plant-A,line6,machine2,UP,lot6,pass,pass,,0,860
+2026-09-24,plant-B,line7,machine4,DN,lot7,pass,pass,,0,334
+2026-09-24,plant-B,line6,machine6,DN,lot6,category 2,b3,code10,6,6
+2026-09-24,plant-B,line6,machine8,UP,lot8,category 1,b4,code6,21,21
+2026-09-24,plant-A,line8,machine1,UP,lot2,category 1,a4,code10,10,10
+2026-09-24,plant-B,line9,machine7,DN,lot9,category 2,b3,code7,8,8
+2026-09-24,plant-B,line2,machine1,UP,lot2,category 3,a3,code2,22,22
+2026-09-24,plant-B,line8,machine8,UP,lot5,category 2,b3,code4,17,17
+2026-09-24,plant-B,line4,machine1,UP,lot8,category 1,a4,code10,19,19
+2026-09-24,plant-B,line3,machine7,UP,lot6,category 1,a4,code8,2,2
+2026-09-24,plant-B,line2,machine9,DN,lot5,pass,pass,,0,609
+2026-09-24,plant-A,line3,machine3,DN,lot8,category 3,a2,code10,12,12
+2026-09-24,plant-B,line2,machine5,DN,lot2,category 3,b1,code7,24,24
+2026-09-25,plant-A,line8,machine9,DN,lot5,category 1,b1,code10,20,20
+2026-09-25,plant-A,line2,machine8,UP,lot7,category 3,b3,code4,21,21
+2026-09-25,plant-B,line5,machine7,UP,lot5,category 1,b1,code1,7,7
+2026-09-25,plant-A,line4,machine8,DN,lot5,category 2,a1,code10,5,5
+2026-09-25,plant-A,line9,machine5,DN,lot4,category 2,a4,code8,3,3
+2026-09-25,plant-B,line2,machine7,DN,lot6,pass,pass,,0,380
+2026-09-25,plant-B,line9,machine8,UP,lot3,category 2,a3,code9,15,15
+2026-09-25,plant-A,line3,machine6,UP,lot6,category 3,a2,code8,4,4
+2026-09-25,plant-B,line2,machine4,UP,lot3,category 1,b1,code5,18,18
+2026-09-25,plant-B,line9,machine7,DN,lot9,category 2,a4,code9,13,13
+2026-09-25,plant-B,line4,machine5,DN,lot1,category 3,b4,code10,17,17
+2026-09-25,plant-A,line8,machine3,DN,lot6,category 3,a2,code1,6,6
+2026-09-25,plant-B,line1,machine9,DN,lot7,category 3,a2,code1,24,24
+2026-09-25,plant-B,line8,machine3,UP,lot2,pass,pass,,0,927
+2026-09-25,plant-B,line9,machine4,DN,lot4,category 3,b2,code1,22,22
+2026-09-25,plant-B,line7,machine1,DN,lot7,,b4,code4,12,12
+2026-09-25,plant-A,line6,machine5,DN,lot7,category 1,b1,code1,18,18
+2026-09-25,plant-A,line2,machine4,DN,lot4,category 3,b1,code7,12,12
+2026-09-25,plant-A,line2,machine2,UP,lot7,pass,pass,,0,241
+2026-09-25,plant-A,line5,machine6,UP,lot3,category 1,b4,code1,17,17
+2026-09-25,plant-A,line5,machine1,UP,lot1,category 1,a2,code9,20,20
+2026-09-25,plant-B,line3,machine4,DN,lot1,category 1,b2,code8,1,1
+2026-09-25,plant-A,line1,machine4,DN,lot6,category 1,a1,code7,21,21
+2026-09-25,plant-B,line8,machine7,DN,lot4,category 2,b2,code9,5,5
+2026-09-25,plant-B,line6,machine9,UP,lot3,pass,pass,,0,583
+2026-09-25,plant-A,line3,machine5,UP,lot9,category 3,a1,code6,13,13
+2026-09-25,plant-B,line2,machine5,DN,lot7,category 3,b2,code3,21,21
+2026-09-25,plant-A,line9,machine1,UP,lot2,category 3,a3,code8,7,7
+2026-09-25,plant-B,line4,machine9,UP,lot2,category 3,b2,code4,19,19
+2026-09-25,plant-A,line2,machine5,DN,lot7,category 1,b3,code4,8,8
+2026-09-26,plant-B,line9,machine5,DN,lot4,pass,pass,,0,927
+2026-09-26,plant-B,line3,machine8,DN,lot5,pass,pass,,0,345
+2026-09-26,plant-A,line2,machine1,DN,lot8,pass,pass,,0,914
+2026-09-26,plant-A,line1,machine9,UP,lot8,pass,pass,,0,899
+2026-09-26,plant-B,line3,machine4,UP,lot5,category 1,b1,code1,10,10
+2026-09-26,plant-A,line7,machine6,DN,lot2,category 3,b3,code1,18,18
+2026-09-26,plant-B,line2,machine7,DN,lot2,category 2,a3,code9,9,9
+2026-09-26,plant-A,line3,machine3,DN,lot5,category 2,a4,code4,7,7
+2026-09-26,plant-A,line2,machine6,UP,lot7,category 1,b2,code7,4,4
+2026-09-26,plant-A,line1,machine7,UP,lot5,category 2,a2,code6,12,12
+2026-09-26,plant-B,line1,machine4,UP,lot9,category 3,a3,code7,7,7
+2026-09-26,plant-B,line2,machine6,UP,lot3,category 2,a2,code6,18,18
+2026-09-26,plant-B,line3,machine3,DN,lot6,category 2,a3,code3,12,12
+2026-09-26,plant-A,line7,machine8,DN,lot4,category 2,b3,code8,17,17
+2026-09-26,plant-A,line5,machine9,UP,lot3,category 1,b4,code6,4,4
+2026-09-26,plant-A,line3,machine4,UP,lot5,category 2,a3,code8,12,12
+2026-09-26,plant-A,line4,machine6,UP,lot4,category 1,a3,code1,9,9
+2026-09-26,plant-A,line4,machine2,DN,lot6,category 3,a3,code7,3,3
+2026-09-26,plant-B,line8,machine5,DN,lot7,category 3,b1,code9,21,21
+2026-09-26,plant-A,line8,machine1,UP,lot8,category 2,b4,code3,3,3
+2026-09-26,plant-B,line7,machine5,DN,lot4,category 2,a3,code8,11,11
+2026-09-26,plant-A,line2,machine6,UP,lot4,category 1,a2,code2,16,16
+2026-09-26,plant-A,line7,machine1,UP,lot6,category 1,b3,code6,6,6
+2026-09-26,plant-B,line4,machine9,UP,lot1,category 1,b4,code5,17,17
+2026-09-26,plant-B,line2,machine5,UP,lot2,category 2,b2,code5,5,5
+2026-09-26,plant-A,line2,machine7,UP,lot6,category 2,a3,code2,2,2
+2026-09-26,plant-A,line5,machine7,DN,lot5,category 3,b1,code4,24,24
+2026-09-26,plant-B,line7,machine5,UP,lot6,category 1,b3,code2,21,21
+2026-09-26,plant-B,line3,machine9,DN,lot6,category 1,a2,code3,7,7
+2026-09-26,plant-A,line8,machine4,UP,lot1,category 2,a2,code1,21,21
+2026-09-27,plant-B,line2,machine4,UP,lot2,category 3,a1,code3,3,3
+2026-09-27,plant-A,line1,machine9,UP,lot6,category 3,b3,code3,2,2
+2026-09-27,plant-B,line5,machine9,DN,lot2,category 2,b1,code10,18,18
+2026-09-27,plant-B,line5,machine1,UP,lot6,category 1,a3,code10,5,5
+2026-09-27,plant-A,line5,machine6,UP,lot8,category 1,b2,code1,16,16
+2026-09-27,plant-B,line8,machine7,UP,lot5,category 2,b2,code6,6,6
+2026-09-27,plant-A,line8,machine8,UP,lot5,category 3,b4,code6,21,21
+2026-09-27,plant-B,line5,machine8,DN,lot8,category 2,b2,code2,16,16
+2026-09-27,plant-B,line6,machine4,DN,lot6,category 1,b2,code7,23,23
+2026-09-27,plant-A,line6,machine6,UP,lot5,category 1,a1,code9,24,24
+2026-09-27,plant-A,line3,machine1,UP,lot8,category 3,b1,code5,10,10
+2026-09-27,plant-B,line9,machine2,UP,lot9,category 1,a3,code1,23,23
+2026-09-27,plant-B,line9,machine6,UP,lot3,category 2,b1,code10,6,6
+2026-09-27,plant-B,line2,machine7,DN,lot6,category 1,a4,code7,24,24
+2026-09-27,plant-A,line1,machine1,UP,lot1,category 1,a4,code9,15,15
+2026-09-27,plant-A,line8,machine6,DN,lot1,category 3,a2,code3,24,24
+2026-09-27,plant-B,line8,machine1,UP,lot6,category 3,b4,code9,2,2
+2026-09-27,plant-A,line3,machine4,UP,lot5,category 3,b1,code10,11,11
+2026-09-27,,line9,machine2,UP,lot7,category 3,b3,code3,12,12
+2026-09-27,plant-B,line1,machine5,DN,lot2,category 1,b3,code7,4,4
+2026-09-27,plant-A,line4,machine1,DN,lot8,category 3,b4,code6,4,4
+2026-09-27,plant-A,line3,machine1,UP,lot3,pass,pass,,0,733
+2026-09-27,plant-A,line4,machine5,UP,lot4,category 1,a2,code2,16,16
+2026-09-27,plant-B,line2,machine5,DN,lot7,category 3,b3,code6,21,21
+2026-09-27,plant-B,line3,machine9,UP,lot1,category 1,a2,code4,16,16
+2026-09-27,plant-A,line1,machine3,DN,lot7,category 2,b3,code3,20,20
+2026-09-27,plant-A,line3,machine5,DN,lot4,category 1,b3,code7,12,12
+2026-09-27,plant-A,line1,machine5,UP,lot9,category 1,a1,code4,4,4
+2026-09-27,plant-B,line9,machine2,DN,lot9,category 3,b2,code8,10,10
+2026-09-27,plant-A,line4,machine2,DN,lot9,pass,pass,,0,371
+2026-09-28,plant-A,line3,machine3,DN,lot6,category 1,a2,code2,20,20
+2026-09-28,plant-A,line9,machine6,UP,lot4,category 3,b2,code1,20,20
+2026-09-28,plant-B,line2,machine5,DN,lot5,category 3,b1,code9,10,10
+2026-09-28,plant-B,line3,machine2,DN,lot3,pass,pass,,0,673
+2026-09-28,,line9,machine2,DN,lot3,category 2,a4,code9,19,19
+2026-09-28,plant-B,line3,machine7,UP,lot9,pass,pass,,0,841
+2026-09-28,plant-A,line2,machine2,UP,lot5,pass,pass,,0,257
+2026-09-28,plant-B,line8,machine9,DN,lot5,pass,pass,,0,485
+2026-09-28,plant-B,line6,machine7,UP,lot3,pass,pass,,0,225
+2026-09-28,plant-B,line5,machine6,UP,lot1,category 2,a4,code1,4,4
+2026-09-28,plant-A,line2,machine2,UP,lot4,category 2,a4,code6,21,21
+2026-09-28,plant-B,line8,machine2,UP,lot9,category 3,a4,code8,19,19
+2026-09-28,plant-A,line8,machine3,UP,lot8,category 2,a3,code3,18,18
+2026-09-28,plant-A,line9,machine1,UP,lot5,,pass,,0,808
+2026-09-28,plant-A,line7,machine8,UP,lot5,category 1,a1,code10,5,5
+2026-09-28,plant-A,line1,machine7,UP,lot2,category 2,b1,code10,16,16
+2026-09-28,plant-A,line1,machine1,DN,lot2,category 1,b2,code2,6,6
+2026-09-28,plant-B,line9,machine8,DN,lot1,pass,pass,,0,645
+2026-09-28,plant-B,line6,machine6,DN,lot7,category 3,b2,code6,19,19
+2026-09-28,plant-A,line8,machine2,UP,lot5,pass,pass,,0,432
+2026-09-28,plant-A,line9,machine4,DN,lot9,pass,pass,,0,425
+2026-09-28,plant-B,line3,machine6,UP,lot8,category 3,b2,code7,16,16
+2026-09-28,plant-A,line3,machine2,UP,lot9,category 1,a3,code9,4,4
+2026-09-28,plant-A,line2,machine9,DN,lot5,category 1,b4,code8,3,3
+2026-09-28,plant-A,line7,machine3,DN,lot6,category 3,a4,code10,9,9
+2026-09-28,plant-B,line1,machine3,DN,lot8,pass,pass,,0,414
+2026-09-28,plant-A,line3,machine8,DN,lot3,category 2,b2,code9,16,16
+2026-09-28,plant-A,line6,machine2,UP,lot6,pass,pass,,0,798
+2026-09-28,plant-A,line5,machine6,UP,lot4,pass,pass,,0,739
+2026-09-28,plant-A,line8,machine4,UP,lot7,category 2,b4,code6,23,23
+2026-09-29,plant-A,line5,machine5,UP,lot1,category 2,b4,code1,7,7
+2026-09-29,plant-A,line3,machine7,UP,lot2,category 1,a3,code3,2,2
+2026-09-29,plant-A,line5,machine4,UP,lot5,category 1,a4,code6,20,20
+2026-09-29,plant-B,line9,machine6,UP,lot9,category 3,a1,code1,19,19
+2026-09-29,,line9,machine9,UP,lot3,category 2,b1,code2,22,22
+2026-09-29,plant-A,line6,machine3,DN,lot5,category 3,b1,code8,8,8
+2026-09-29,plant-B,line8,machine2,DN,lot2,category 1,b1,code10,7,7
+2026-09-29,plant-B,line8,machine9,DN,lot2,category 3,b4,code2,13,13
+2026-09-29,plant-B,line2,machine4,UP,lot5,category 2,b4,code9,10,10
+2026-09-29,plant-A,line2,machine7,DN,lot5,category 3,b4,code3,18,18
+2026-09-29,plant-A,line1,machine1,UP,lot5,category 1,b3,code9,11,11
+2026-09-29,plant-B,line4,machine3,UP,lot7,category 1,a2,code7,14,14
+2026-09-29,plant-B,line2,machine9,UP,lot6,pass,pass,,0,216
+2026-09-29,plant-B,line3,machine8,UP,lot2,category 1,a4,code10,10,10
+2026-09-29,plant-A,line1,machine7,DN,lot3,category 2,b4,code8,12,12
+2026-09-29,plant-A,line2,machine4,DN,lot1,category 1,b2,code8,20,20
+2026-09-29,plant-A,line5,machine6,UP,lot4,category 2,b3,code1,23,23
+2026-09-29,plant-B,line2,machine9,DN,lot6,category 3,b2,code10,24,24
+2026-09-29,plant-A,line1,machine8,DN,lot8,pass,pass,,0,308
+2026-09-29,plant-A,line9,machine4,DN,lot2,category 1,a2,code9,3,3
+2026-09-29,plant-B,line6,machine6,UP,lot5,category 3,a3,code1,16,16
+2026-09-29,plant-B,line7,machine3,DN,lot5,category 1,b3,code2,11,11
+2026-09-29,plant-B,line4,machine4,DN,lot6,pass,pass,,0,365
+2026-09-29,plant-B,line3,machine8,DN,lot8,category 1,a3,code5,18,18
+2026-09-29,plant-B,line6,machine3,UP,lot3,pass,pass,,0,594
+2026-09-29,plant-B,line3,machine5,UP,lot8,category 3,b3,code9,21,21
+2026-09-29,plant-A,line3,machine6,UP,lot4,category 2,b3,code5,4,4
+2026-09-29,plant-B,line9,machine9,UP,lot3,pass,pass,,0,300
+2026-09-29,plant-B,line1,machine8,UP,lot1,category 1,a3,code2,6,6
+2026-09-29,plant-A,line4,machine2,DN,lot7,category 1,a1,code7,14,14
+2026-09-30,plant-A,line6,machine3,DN,lot6,pass,pass,,0,482
+2026-09-30,plant-A,line8,machine8,DN,lot2,pass,pass,,0,879
+2026-09-30,plant-A,line6,machine6,DN,lot1,category 2,a4,code9,11,11
+2026-09-30,plant-B,line7,machine7,UP,lot2,pass,pass,,0,669
+2026-09-30,plant-B,line2,machine2,DN,lot8,category 2,b2,code5,8,8
+2026-09-30,plant-B,line5,machine1,UP,lot2,category 2,b4,code7,15,15
+2026-09-30,plant-A,line2,machine7,UP,lot8,pass,pass,,0,291
+2026-09-30,plant-A,line5,machine2,DN,lot4,category 2,a2,code9,7,7
+2026-09-30,plant-A,line3,machine4,UP,lot8,category 3,b3,code7,23,23
+2026-09-30,plant-B,line2,machine3,DN,lot9,category 3,a2,code9,16,16
+2026-09-30,plant-A,line4,machine9,UP,lot7,pass,pass,,0,318
+2026-09-30,plant-A,line8,machine4,UP,lot3,category 3,a4,code5,15,15
+2026-09-30,plant-B,line3,machine6,UP,lot5,category 1,a2,code2,12,12
+2026-09-30,plant-A,line8,machine2,UP,lot2,category 1,a1,code10,2,2
+2026-09-30,plant-B,line5,machine6,DN,lot1,category 3,b2,code8,13,13
+2026-09-30,plant-A,line1,machine4,UP,lot8,category 1,a1,code8,10,10
+2026-09-30,plant-B,line7,machine3,DN,lot7,category 3,b1,code6,20,20
+2026-09-30,plant-A,line7,machine8,DN,lot6,category 3,b4,code8,7,7
+2026-09-30,plant-A,line6,machine8,DN,lot5,category 3,a4,code8,2,2
+2026-09-30,plant-B,line1,machine1,UP,lot4,category 2,b4,code9,1,1
+2026-09-30,plant-A,line5,machine5,UP,lot6,category 3,a1,code1,20,20
+2026-09-30,plant-B,line8,machine9,UP,lot9,category 3,a3,code10,17,17
+2026-09-30,plant-A,line6,machine4,UP,lot5,pass,pass,,0,417
+2026-09-30,plant-B,line8,machine1,DN,lot6,pass,pass,,0,452
+2026-09-30,plant-B,line3,machine4,UP,lot6,category 3,b3,code4,20,20
+2026-09-30,plant-B,line8,machine1,DN,lot7,pass,pass,,0,595
+2026-09-30,plant-A,line7,machine7,DN,lot8,pass,pass,,0,656
+2026-09-30,plant-A,line7,machine7,DN,lot9,category 1,a2,code2,15,15
+2026-09-30,plant-A,line1,machine4,DN,lot5,pass,pass,,0,912
+2026-09-30,plant-B,line9,machine7,UP,lot5,pass,pass,,0,439
